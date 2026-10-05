@@ -1,3 +1,19 @@
+const brandRegistrationStatus={
+  "ксанакс":{label:"Xanax",status:"Нет действующего РУ в РФ",note:"Регистрация торгового наименования Xanax отменена. МНН алпразолам зарегистрирован в РФ под другими торговыми наименованиями."},
+  "xanax":{label:"Xanax",status:"Нет действующего РУ в РФ",note:"Регистрация торгового наименования Xanax отменена. МНН алпразолам зарегистрирован в РФ под другими торговыми наименованиями."},
+  "вегови":{label:"Wegovy",status:"Нет действующего РУ в РФ",note:"Wegovy содержит семаглутид, но само торговое наименование не зарегистрировано в РФ."},
+  "wegovy":{label:"Wegovy",status:"Нет действующего РУ в РФ",note:"Wegovy содержит семаглутид, но само торговое наименование не зарегистрировано в РФ."},
+  "оземпик":{label:"Ozempic",status:"Есть действующее РУ в РФ",note:"У Ozempic есть действующее российское регистрационное удостоверение. Наличие в продаже может отличаться от регистрационного статуса."},
+  "ozempic":{label:"Ozempic",status:"Есть действующее РУ в РФ",note:"У Ozempic есть действующее российское регистрационное удостоверение. Наличие в продаже может отличаться от регистрационного статуса."},
+  "веллбутрин":{label:"Wellbutrin",status:"Нет действующего РУ в РФ",note:"Бупропион не представлен действующими регистрациями в РФ."},
+  "wellbutrin":{label:"Wellbutrin",status:"Нет действующего РУ в РФ",note:"Бупропион не представлен действующими регистрациями в РФ."}
+};
+function brandRegistrationNotice(d){
+  const info=brandRegistrationStatus[norm(d.queryInput||"")];
+  if(!info)return "";
+  return `<div class="brand-registration-note"><strong>${info.label}: ${info.status}</strong><span>${info.note}</span></div>`;
+}
+
 function norm(s){return (s||"").toLowerCase().trim().replace(/ё/g,"е").replace(/[–—]/g,"-")}
 function getGrlsStore(){return window.GRLS_RU&&window.GRLS_RU.by_inn?window.GRLS_RU:{meta:{status:"not_loaded"},by_inn:{}}}
 function grlsEntryByInn(inn){return getGrlsStore().by_inn[norm(inn)]||null}
