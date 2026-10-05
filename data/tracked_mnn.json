@@ -1,0 +1,968 @@
+[
+  {
+    "key": "azilsartan",
+    "inn": "Азилсартана медоксомил",
+    "rxnorm": "azilsartan medoxomil",
+    "aliases": [
+      "азилсартан",
+      "азилсартана медоксомил",
+      "эдарби",
+      "edarbi"
+    ]
+  },
+  {
+    "key": "azithromycin",
+    "inn": "Азитромицин",
+    "rxnorm": "azithromycin",
+    "aliases": [
+      "азитромицин",
+      "azithromycin",
+      "сумамед",
+      "sumamed",
+      "зитромакс",
+      "zithromax"
+    ]
+  },
+  {
+    "key": "alendronate",
+    "inn": "Алендронат натрия",
+    "rxnorm": "alendronate",
+    "aliases": [
+      "алендронат",
+      "алендронат натрия",
+      "alendronate",
+      "фосамакс",
+      "fosamax"
+    ]
+  },
+  {
+    "key": "alprazolam",
+    "inn": "Алпразолам",
+    "rxnorm": "alprazolam",
+    "aliases": [
+      "алпразолам",
+      "alprazolam",
+      "ксанакс",
+      "xanax",
+      "золомакс"
+    ]
+  },
+  {
+    "key": "amiodarone",
+    "inn": "Амиодарон",
+    "rxnorm": "amiodarone",
+    "aliases": [
+      "амиодарон",
+      "amiodarone",
+      "кордарон",
+      "cordarone"
+    ]
+  },
+  {
+    "key": "amlodipine",
+    "inn": "Амлодипин",
+    "rxnorm": "amlodipine",
+    "aliases": [
+      "амлодипин",
+      "amlodipine",
+      "норваск",
+      "norvasc"
+    ]
+  },
+  {
+    "key": "amoxicillin",
+    "inn": "Амоксициллин",
+    "rxnorm": "amoxicillin",
+    "aliases": [
+      "амоксициллин",
+      "amoxicillin",
+      "флемоксин",
+      "оспамокс"
+    ]
+  },
+  {
+    "key": "apixaban",
+    "inn": "Апиксабан",
+    "rxnorm": "apixaban",
+    "aliases": [
+      "апиксабан",
+      "apixaban",
+      "эликвис",
+      "eliquis",
+      "апиксанта",
+      "апиклис"
+    ]
+  },
+  {
+    "key": "atomoxetine",
+    "inn": "Атомоксетин",
+    "rxnorm": "atomoxetine",
+    "aliases": [
+      "атомоксетин",
+      "atomoxetine",
+      "страттера"
+    ]
+  },
+  {
+    "key": "atorvastatin",
+    "inn": "Аторвастатин",
+    "rxnorm": "atorvastatin",
+    "aliases": [
+      "аторвастатин",
+      "atorvastatin",
+      "липитор",
+      "lipitor",
+      "липримар"
+    ]
+  },
+  {
+    "key": "aspirin",
+    "inn": "Ацетилсалициловая кислота",
+    "rxnorm": "aspirin",
+    "aliases": [
+      "аспирин",
+      "ацетилсалициловая кислота",
+      "aspirin",
+      "кардиомагнил",
+      "тромбо асс"
+    ]
+  },
+  {
+    "key": "bisoprolol",
+    "inn": "Бисопролол",
+    "rxnorm": "bisoprolol",
+    "aliases": [
+      "бисопролол",
+      "bisoprolol",
+      "конкор",
+      "коронал"
+    ]
+  },
+  {
+    "key": "budesonide",
+    "inn": "Будесонид",
+    "rxnorm": "budesonide",
+    "aliases": [
+      "будесонид",
+      "budesonide",
+      "пульмикорт"
+    ]
+  },
+  {
+    "key": "bupropion",
+    "inn": "Бупропион",
+    "rxnorm": "bupropion",
+    "aliases": [
+      "бупропион",
+      "bupropion",
+      "веллбутрин",
+      "wellbutrin"
+    ]
+  },
+  {
+    "key": "valsartan",
+    "inn": "Валсартан",
+    "rxnorm": "valsartan",
+    "aliases": [
+      "валсартан",
+      "valsartan",
+      "диован",
+      "diovan"
+    ]
+  },
+  {
+    "key": "warfarin",
+    "inn": "Варфарин",
+    "rxnorm": "warfarin",
+    "aliases": [
+      "варфарин",
+      "warfarin",
+      "coumadin",
+      "кумадин"
+    ]
+  },
+  {
+    "key": "venlafaxine",
+    "inn": "Венлафаксин",
+    "rxnorm": "venlafaxine",
+    "aliases": [
+      "венлафаксин",
+      "venlafaxine",
+      "эффексор",
+      "effexor",
+      "велаксин"
+    ]
+  },
+  {
+    "key": "gabapentin",
+    "inn": "Габапентин",
+    "rxnorm": "gabapentin",
+    "aliases": [
+      "габапентин",
+      "gabapentin",
+      "нейронтин"
+    ]
+  },
+  {
+    "key": "hydrochlorothiazide",
+    "inn": "Гидрохлоротиазид",
+    "rxnorm": "hydrochlorothiazide",
+    "aliases": [
+      "гидрохлоротиазид",
+      "hydrochlorothiazide",
+      "гипотиазид"
+    ]
+  },
+  {
+    "key": "gliclazide",
+    "inn": "Гликлазид",
+    "rxnorm": "gliclazide",
+    "aliases": [
+      "гликлазид",
+      "gliclazide",
+      "диабетон"
+    ]
+  },
+  {
+    "key": "glimepiride",
+    "inn": "Глимепирид",
+    "rxnorm": "glimepiride",
+    "aliases": [
+      "глимепирид",
+      "glimepiride",
+      "амарил"
+    ]
+  },
+  {
+    "key": "dabigatran",
+    "inn": "Дабигатрана этексилат",
+    "rxnorm": "dabigatran etexilate",
+    "aliases": [
+      "дабигатран",
+      "дабигатрана этексилат",
+      "dabigatran",
+      "прадакса",
+      "pradaxa"
+    ]
+  },
+  {
+    "key": "dapagliflozin",
+    "inn": "Дапаглифлозин",
+    "rxnorm": "dapagliflozin",
+    "aliases": [
+      "дапаглифлозин",
+      "dapagliflozin",
+      "форсига",
+      "форсига"
+    ]
+  },
+  {
+    "key": "desloratadine",
+    "inn": "Дезлоратадин",
+    "rxnorm": "desloratadine",
+    "aliases": [
+      "дезлоратадин",
+      "desloratadine",
+      "эриус"
+    ]
+  },
+  {
+    "key": "digoxin",
+    "inn": "Дигоксин",
+    "rxnorm": "digoxin",
+    "aliases": [
+      "дигоксин",
+      "digoxin",
+      "ланоксин",
+      "lanoxin"
+    ]
+  },
+  {
+    "key": "diclofenac",
+    "inn": "Диклофенак",
+    "rxnorm": "diclofenac",
+    "aliases": [
+      "диклофенак",
+      "diclofenac",
+      "вольтарен",
+      "ортофен"
+    ]
+  },
+  {
+    "key": "doxycycline",
+    "inn": "Доксициклин",
+    "rxnorm": "doxycycline",
+    "aliases": [
+      "доксициклин",
+      "doxycycline",
+      "юнидокс",
+      "вибрамицин"
+    ]
+  },
+  {
+    "key": "duloxetine",
+    "inn": "Дулоксетин",
+    "rxnorm": "duloxetine",
+    "aliases": [
+      "дулоксетин",
+      "duloxetine",
+      "симбалта"
+    ]
+  },
+  {
+    "key": "iron",
+    "inn": "Железа сульфат",
+    "rxnorm": "ferrous sulfate",
+    "aliases": [
+      "железа сульфат",
+      "железо",
+      "ferrous sulfate",
+      "сорбифер",
+      "тардиферон"
+    ]
+  },
+  {
+    "key": "zolpidem",
+    "inn": "Золпидем",
+    "rxnorm": "zolpidem",
+    "aliases": [
+      "золпидем",
+      "zolpidem",
+      "амбиен",
+      "ambien",
+      "ивадал"
+    ]
+  },
+  {
+    "key": "ibuprofen",
+    "inn": "Ибупрофен",
+    "rxnorm": "ibuprofen",
+    "aliases": [
+      "ибупрофен",
+      "ibuprofen",
+      "бруфен",
+      "brufen",
+      "нурофен",
+      "nurofen"
+    ]
+  },
+  {
+    "key": "indapamide",
+    "inn": "Индапамид",
+    "rxnorm": "indapamide",
+    "aliases": [
+      "индапамид",
+      "indapamide",
+      "арифон"
+    ]
+  },
+  {
+    "key": "calcium",
+    "inn": "Кальция карбонат",
+    "rxnorm": "calcium carbonate",
+    "aliases": [
+      "кальций",
+      "кальция карбонат",
+      "calcium carbonate",
+      "кальций д3",
+      "кальций-d3"
+    ]
+  },
+  {
+    "key": "quetiapine",
+    "inn": "Кветиапин",
+    "rxnorm": "quetiapine",
+    "aliases": [
+      "кветиапин",
+      "quetiapine",
+      "сероквель"
+    ]
+  },
+  {
+    "key": "ketoconazole",
+    "inn": "Кетоконазол",
+    "rxnorm": "ketoconazole",
+    "aliases": [
+      "кетоконазол",
+      "ketoconazole",
+      "низорал",
+      "nizoral"
+    ]
+  },
+  {
+    "key": "ketorolac",
+    "inn": "Кеторолак",
+    "rxnorm": "ketorolac",
+    "aliases": [
+      "кеторолак",
+      "ketorolac",
+      "кеторол"
+    ]
+  },
+  {
+    "key": "clavulanate",
+    "inn": "Клавулановая кислота",
+    "rxnorm": "clavulanate",
+    "aliases": [
+      "клавулановая кислота",
+      "клавуланат",
+      "clavulanate"
+    ]
+  },
+  {
+    "key": "clarithromycin",
+    "inn": "Кларитромицин",
+    "rxnorm": "clarithromycin",
+    "aliases": [
+      "кларитромицин",
+      "clarithromycin",
+      "клацид",
+      "klacid",
+      "кларитросин"
+    ]
+  },
+  {
+    "key": "clopidogrel",
+    "inn": "Клопидогрел",
+    "rxnorm": "clopidogrel",
+    "aliases": [
+      "клопидогрел",
+      "clopidogrel",
+      "плавикс",
+      "plavix",
+      "зилт",
+      "клопидогрел-сз"
+    ]
+  },
+  {
+    "key": "xylometazoline",
+    "inn": "Ксилометазолин",
+    "rxnorm": "xylometazoline",
+    "aliases": [
+      "ксилометазолин",
+      "xylometazoline",
+      "отривин",
+      "ринонорм"
+    ]
+  },
+  {
+    "key": "levothyroxine",
+    "inn": "Левотироксин натрия",
+    "rxnorm": "levothyroxine",
+    "aliases": [
+      "левотироксин",
+      "левотироксин натрия",
+      "эутирокс",
+      "euthyrox",
+      "l-тироксин",
+      "l тироксин",
+      "synthroid"
+    ]
+  },
+  {
+    "key": "levofloxacin",
+    "inn": "Левофлоксацин",
+    "rxnorm": "levofloxacin",
+    "aliases": [
+      "левофлоксацин",
+      "levofloxacin",
+      "таваник"
+    ]
+  },
+  {
+    "key": "lisdexamfetamine",
+    "inn": "Лиздексамфетамин",
+    "rxnorm": "lisdexamfetamine",
+    "aliases": [
+      "лиздексамфетамин",
+      "lisdexamfetamine",
+      "вивансе",
+      "vyvanse"
+    ]
+  },
+  {
+    "key": "lisinopril",
+    "inn": "Лизиноприл",
+    "rxnorm": "lisinopril",
+    "aliases": [
+      "лизиноприл",
+      "lisinopril",
+      "диротон",
+      "лизинотон"
+    ]
+  },
+  {
+    "key": "linezolid",
+    "inn": "Линезолид",
+    "rxnorm": "linezolid",
+    "aliases": [
+      "линезолид",
+      "linezolid",
+      "зивокс",
+      "zyvox"
+    ]
+  },
+  {
+    "key": "losartan",
+    "inn": "Лозартан",
+    "rxnorm": "losartan",
+    "aliases": [
+      "лозартан",
+      "losartan",
+      "лозап",
+      "лориста",
+      "козаар"
+    ]
+  },
+  {
+    "key": "loperamide",
+    "inn": "Лоперамид",
+    "rxnorm": "loperamide",
+    "aliases": [
+      "лоперамид",
+      "loperamide",
+      "имодиум"
+    ]
+  },
+  {
+    "key": "loratadine",
+    "inn": "Лоратадин",
+    "rxnorm": "loratadine",
+    "aliases": [
+      "лоратадин",
+      "loratadine",
+      "кларитин",
+      "ломилан"
+    ]
+  },
+  {
+    "key": "magnesium",
+    "inn": "Магний",
+    "rxnorm": "magnesium",
+    "aliases": [
+      "магний",
+      "magnesium",
+      "магне b6",
+      "магне б6"
+    ]
+  },
+  {
+    "key": "antacid",
+    "inn": "Магния/алюминия гидроксиды",
+    "rxnorm": "aluminum hydroxide magnesium hydroxide",
+    "aliases": [
+      "антацид",
+      "магния гидроксид",
+      "алюминия гидроксид",
+      "маалокс",
+      "алмагель",
+      "antacid"
+    ]
+  },
+  {
+    "key": "metoprolol",
+    "inn": "Метопролол",
+    "rxnorm": "metoprolol",
+    "aliases": [
+      "метопролол",
+      "metoprolol",
+      "беталок",
+      "эгилок"
+    ]
+  },
+  {
+    "key": "metformin",
+    "inn": "Метформин",
+    "rxnorm": "metformin",
+    "aliases": [
+      "метформин",
+      "metformin",
+      "глюкофаж",
+      "glucophage",
+      "сиофор"
+    ]
+  },
+  {
+    "key": "montelukast",
+    "inn": "Монтелукаст",
+    "rxnorm": "montelukast",
+    "aliases": [
+      "монтелукаст",
+      "montelukast",
+      "сингуляр"
+    ]
+  },
+  {
+    "key": "naproxen",
+    "inn": "Напроксен",
+    "rxnorm": "naproxen",
+    "aliases": [
+      "напроксен",
+      "naproxen",
+      "налгезин",
+      "алив"
+    ]
+  },
+  {
+    "key": "nebivolol",
+    "inn": "Небиволол",
+    "rxnorm": "nebivolol",
+    "aliases": [
+      "небиволол",
+      "nebivolol",
+      "небилет"
+    ]
+  },
+  {
+    "key": "nimesulide",
+    "inn": "Нимесулид",
+    "rxnorm": "nimesulide",
+    "aliases": [
+      "нимесулид",
+      "nimesulide",
+      "нимесил",
+      "найз"
+    ]
+  },
+  {
+    "key": "nitroglycerin",
+    "inn": "Нитроглицерин",
+    "rxnorm": "nitroglycerin",
+    "aliases": [
+      "нитроглицерин",
+      "nitroglycerin",
+      "нитроспрей"
+    ]
+  },
+  {
+    "key": "omeprazole",
+    "inn": "Омепразол",
+    "rxnorm": "omeprazole",
+    "aliases": [
+      "омепразол",
+      "omeprazole",
+      "лосек",
+      "losec",
+      "омез",
+      "omez"
+    ]
+  },
+  {
+    "key": "pancreatin",
+    "inn": "Панкреатин",
+    "rxnorm": "pancreatin",
+    "aliases": [
+      "панкреатин",
+      "pancreatin",
+      "креон",
+      "creon",
+      "мезим"
+    ]
+  },
+  {
+    "key": "pantoprazole",
+    "inn": "Пантопразол",
+    "rxnorm": "pantoprazole",
+    "aliases": [
+      "пантопразол",
+      "pantoprazole",
+      "контролок",
+      "controloc",
+      "нольпаза"
+    ]
+  },
+  {
+    "key": "paracetamol",
+    "inn": "Парацетамол",
+    "rxnorm": "acetaminophen",
+    "aliases": [
+      "парацетамол",
+      "paracetamol",
+      "acetaminophen",
+      "панадол",
+      "panadol"
+    ]
+  },
+  {
+    "key": "perindopril",
+    "inn": "Периндоприл",
+    "rxnorm": "perindopril",
+    "aliases": [
+      "периндоприл",
+      "perindopril",
+      "престариум"
+    ]
+  },
+  {
+    "key": "pregabalin",
+    "inn": "Прегабалин",
+    "rxnorm": "pregabalin",
+    "aliases": [
+      "прегабалин",
+      "pregabalin",
+      "лирика",
+      "lyrica"
+    ]
+  },
+  {
+    "key": "rivaroxaban",
+    "inn": "Ривароксабан",
+    "rxnorm": "rivaroxaban",
+    "aliases": [
+      "ривароксабан",
+      "rivaroxaban",
+      "ксарелто",
+      "xarelto"
+    ]
+  },
+  {
+    "key": "rosuvastatin",
+    "inn": "Розувастатин",
+    "rxnorm": "rosuvastatin",
+    "aliases": [
+      "розувастатин",
+      "rosuvastatin",
+      "крестор",
+      "роксера"
+    ]
+  },
+  {
+    "key": "salbutamol",
+    "inn": "Сальбутамол",
+    "rxnorm": "albuterol",
+    "aliases": [
+      "сальбутамол",
+      "salbutamol",
+      "albuterol",
+      "вентолин"
+    ]
+  },
+  {
+    "key": "semaglutide",
+    "inn": "Семаглутид",
+    "rxnorm": "semaglutide",
+    "aliases": [
+      "семаглутид",
+      "semaglutide",
+      "оземпик",
+      "ozempic",
+      "семавик"
+    ]
+  },
+  {
+    "key": "sertraline",
+    "inn": "Сертралин",
+    "rxnorm": "sertraline",
+    "aliases": [
+      "сертралин",
+      "sertraline",
+      "золофт",
+      "zoloft"
+    ]
+  },
+  {
+    "key": "sildenafil",
+    "inn": "Силденафил",
+    "rxnorm": "sildenafil",
+    "aliases": [
+      "силденафил",
+      "sildenafil",
+      "виагра",
+      "viagra",
+      "динамико",
+      "силденафил-сз"
+    ]
+  },
+  {
+    "key": "simvastatin",
+    "inn": "Симвастатин",
+    "rxnorm": "simvastatin",
+    "aliases": [
+      "симвастатин",
+      "simvastatin",
+      "зокор",
+      "zocor",
+      "вазилип"
+    ]
+  },
+  {
+    "key": "amphetamine_salts",
+    "inn": "Смешанные соли амфетамина",
+    "rxnorm": "amphetamine mixed salts",
+    "aliases": [
+      "аддералл",
+      "adderall",
+      "смешанные соли амфетамина"
+    ]
+  },
+  {
+    "key": "spironolactone",
+    "inn": "Спиронолактон",
+    "rxnorm": "spironolactone",
+    "aliases": [
+      "спиронолактон",
+      "spironolactone",
+      "верошпирон"
+    ]
+  },
+  {
+    "key": "tadalafil",
+    "inn": "Тадалафил",
+    "rxnorm": "tadalafil",
+    "aliases": [
+      "тадалафил",
+      "tadalafil",
+      "сиалис",
+      "cialis"
+    ]
+  },
+  {
+    "key": "tirzepatide",
+    "inn": "Тирзепатид",
+    "rxnorm": "tirzepatide",
+    "aliases": [
+      "тирзепатид",
+      "tirzepatide",
+      "маунджаро",
+      "mounjaro",
+      "тирзетта"
+    ]
+  },
+  {
+    "key": "ursodeoxycholic",
+    "inn": "Урсодезоксихолевая кислота",
+    "rxnorm": "ursodeoxycholic acid",
+    "aliases": [
+      "урсодезоксихолевая кислота",
+      "урсосан",
+      "урсофальк"
+    ]
+  },
+  {
+    "key": "famotidine",
+    "inn": "Фамотидин",
+    "rxnorm": "famotidine",
+    "aliases": [
+      "фамотидин",
+      "famotidine",
+      "квамател"
+    ]
+  },
+  {
+    "key": "fluconazole",
+    "inn": "Флуконазол",
+    "rxnorm": "fluconazole",
+    "aliases": [
+      "флуконазол",
+      "fluconazole",
+      "дифлюкан",
+      "diflucan",
+      "флюкостат"
+    ]
+  },
+  {
+    "key": "fluoxetine",
+    "inn": "Флуоксетин",
+    "rxnorm": "fluoxetine",
+    "aliases": [
+      "флуоксетин",
+      "fluoxetine",
+      "прозак",
+      "prozac"
+    ]
+  },
+  {
+    "key": "furosemide",
+    "inn": "Фуросемид",
+    "rxnorm": "furosemide",
+    "aliases": [
+      "фуросемид",
+      "furosemide",
+      "лазикс"
+    ]
+  },
+  {
+    "key": "celecoxib",
+    "inn": "Целекоксиб",
+    "rxnorm": "celecoxib",
+    "aliases": [
+      "целекоксиб",
+      "celecoxib",
+      "целебрекс"
+    ]
+  },
+  {
+    "key": "cetirizine",
+    "inn": "Цетиризин",
+    "rxnorm": "cetirizine",
+    "aliases": [
+      "цетиризин",
+      "cetirizine",
+      "зиртек",
+      "цетрин"
+    ]
+  },
+  {
+    "key": "cefixime",
+    "inn": "Цефиксим",
+    "rxnorm": "cefixime",
+    "aliases": [
+      "цефиксим",
+      "cefixime",
+      "супракс"
+    ]
+  },
+  {
+    "key": "cefuroxime",
+    "inn": "Цефуроксим",
+    "rxnorm": "cefuroxime",
+    "aliases": [
+      "цефуроксим",
+      "cefuroxime",
+      "зиннат"
+    ]
+  },
+  {
+    "key": "ciprofloxacin",
+    "inn": "Ципрофлоксацин",
+    "rxnorm": "ciprofloxacin",
+    "aliases": [
+      "ципрофлоксацин",
+      "ciprofloxacin",
+      "ципролет",
+      "цифран",
+      "cipro"
+    ]
+  },
+  {
+    "key": "ezetimibe",
+    "inn": "Эзетимиб",
+    "rxnorm": "ezetimibe",
+    "aliases": [
+      "эзетимиб",
+      "ezetimibe",
+      "эзетрол"
+    ]
+  },
+  {
+    "key": "empagliflozin",
+    "inn": "Эмпаглифлозин",
+    "rxnorm": "empagliflozin",
+    "aliases": [
+      "эмпаглифлозин",
+      "empagliflozin",
+      "джардинс",
+      "jardiance"
+    ]
+  },
+  {
+    "key": "escitalopram",
+    "inn": "Эсциталопрам",
+    "rxnorm": "escitalopram",
+    "aliases": [
+      "эсциталопрам",
+      "escitalopram",
+      "ципралекс"
+    ]
+  }
+]
