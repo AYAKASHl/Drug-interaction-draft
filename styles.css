@@ -998,3 +998,180 @@ button,.tab,.form-chip,.pharmacy-link,summary{touch-action:manipulation}
     font-size:20px!important;
     letter-spacing:-.35px!important;
   }
+
+
+/* ===== UI POLISH V2 ===== */
+:root{
+  --accent:#3157f6;
+  --accent2:#745ee8;
+  --soft-shadow:0 8px 24px rgba(35,48,89,.08);
+  --card-shadow:0 18px 48px rgba(35,48,89,.09);
+}
+body{background:linear-gradient(180deg,#f9faff 0%,#f5f7fc 48%,#f8f9fc 100%)}
+[data-theme="dark"] body{background:#10141f}
+
+.simple-header{
+  background:rgba(249,250,255,.86)!important;
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+[data-theme="dark"] .simple-header{background:rgba(16,20,31,.88)!important}
+
+.checker{
+  box-shadow:var(--card-shadow)!important;
+  border-color:rgba(49,87,246,.11)!important;
+}
+.searchbox input{
+  transition:border-color .18s ease,box-shadow .18s ease,background .18s ease!important;
+}
+.searchbox input:focus{
+  outline:none!important;
+  border-color:rgba(49,87,246,.55)!important;
+  box-shadow:0 0 0 4px rgba(49,87,246,.10)!important;
+}
+
+.primary,.doctor-button{
+  border:0!important;
+  color:#fff!important;
+  background:linear-gradient(135deg,var(--accent),var(--accent2))!important;
+  box-shadow:0 8px 22px rgba(49,87,246,.23)!important;
+  transition:transform .16s ease,box-shadow .16s ease,filter .16s ease!important;
+}
+.primary:hover,.doctor-button:hover{
+  transform:translateY(-1px);
+  filter:saturate(1.05);
+  box-shadow:0 12px 30px rgba(49,87,246,.29)!important;
+}
+.primary:active,.doctor-button:active{transform:translateY(0) scale(.99)}
+
+.tabs{
+  padding:5px!important;
+  border-radius:14px!important;
+  background:rgba(255,255,255,.68)!important;
+  box-shadow:0 5px 18px rgba(35,48,89,.05)!important;
+}
+[data-theme="dark"] .tabs{background:rgba(255,255,255,.035)!important}
+.tab{
+  border-radius:10px!important;
+  min-height:40px!important;
+  transition:.16s ease!important;
+}
+.tab.active{
+  color:var(--accent)!important;
+  background:#fff!important;
+  box-shadow:0 4px 14px rgba(35,48,89,.09)!important;
+}
+[data-theme="dark"] .tab.active{background:#20283a!important}
+
+.swap,.icon-btn,.quick button,.form-chip,.more-meds,.pharmacy-link{
+  transition:transform .16s ease,border-color .16s ease,background .16s ease,box-shadow .16s ease!important;
+}
+.swap:hover,.icon-btn:hover,.form-chip:hover,.more-meds:hover{
+  border-color:rgba(49,87,246,.30)!important;
+  background:rgba(49,87,246,.055)!important;
+}
+.quick{gap:7px!important}
+.quick button{
+  min-height:36px!important;
+  padding:8px 12px!important;
+  border-radius:999px!important;
+  border:1px solid rgba(72,87,132,.14)!important;
+  background:rgba(255,255,255,.86)!important;
+  box-shadow:0 3px 10px rgba(35,48,89,.04)!important;
+}
+.quick button:hover{transform:translateY(-1px);border-color:rgba(49,87,246,.25)!important}
+[data-theme="dark"] .quick button{background:#171d2a!important}
+
+.result-card,.drugcard,.tablewrap{box-shadow:var(--soft-shadow)!important}
+.pharmacy-links{gap:8px!important}
+.pharmacy-link{
+  min-height:42px!important;
+  border-radius:12px!important;
+  background:#fff!important;
+  font-weight:800!important;
+  box-shadow:0 5px 16px rgba(35,48,89,.06)!important;
+}
+[data-theme="dark"] .pharmacy-link{background:#171d2a!important}
+.pharmacy-link.zdravcity{border-color:rgba(55,166,112,.28)!important}
+.pharmacy-link.apteka{border-color:rgba(220,77,92,.26)!important}
+.pharmacy-link:hover{transform:translateY(-1px)!important;box-shadow:0 8px 20px rgba(35,48,89,.10)!important}
+
+.doctor-icon{display:none!important}
+.doctor-cta{
+  margin-top:16px!important;
+  padding:15px 17px!important;
+  border-radius:16px!important;
+  border:1px solid rgba(49,87,246,.14)!important;
+  background:linear-gradient(135deg,rgba(49,87,246,.055),rgba(116,94,232,.045))!important;
+  box-shadow:var(--soft-shadow)!important;
+}
+.doctor-copy{gap:0!important}
+.doctor-copy strong{font-size:14px!important}
+.doctor-copy small{font-size:11px!important;margin-top:3px!important}
+.doctor-button{min-height:44px!important;border-radius:11px!important;padding:10px 16px!important}
+
+@media(min-width:1100px){
+  .wrap{width:min(1180px,calc(100% - 72px))!important}
+  .hero-simple{max-width:900px!important;padding:46px 0 25px!important}
+  .hero-simple h1{max-width:900px!important;font-size:56px!important;line-height:1.02!important;letter-spacing:-2.6px!important}
+  .checker{padding:24px!important;border-radius:22px!important}
+  .search-grid{grid-template-columns:minmax(0,1fr) 48px minmax(0,1fr) 156px!important;gap:12px!important}
+  .searchbox input{height:56px!important;font-size:16px!important}
+  .swap{width:48px!important;height:48px!important;border-radius:13px!important}
+  .primary{height:56px!important;border-radius:14px!important;font-size:15px!important}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important}
+  .drugcard{border-radius:18px!important}
+}
+
+@media(max-width:768px){
+  .wrap{width:calc(100% - 20px)!important}
+  .simple-header{height:50px!important}
+  .hero-simple{padding:8px 0 3px!important}
+  .kicker{display:none!important}
+  .hero-simple h1{
+    font-size:27px!important;line-height:1.02!important;letter-spacing:-1.15px!important;
+    margin:0 0 5px!important;
+  }
+  .hero-simple p{
+    font-size:11.5px!important;line-height:1.35!important;
+    display:-webkit-box!important;-webkit-line-clamp:2!important;-webkit-box-orient:vertical!important;overflow:hidden!important;
+  }
+  .compact-notice{display:none!important}
+  .tabs{margin:3px -2px 5px!important;padding:4px!important;border-radius:12px!important}
+  .tab{min-height:36px!important;padding:7px 11px!important;font-size:11px!important}
+  #checkPanel .checker{transform:none!important;margin-top:0!important;padding:12px!important;border-radius:16px!important}
+  .checker-head{margin-bottom:7px!important}
+  .checker-head h2{font-size:17px!important}
+  .checker-head p{display:none!important}
+  .search-grid{grid-template-columns:1fr!important;gap:6px!important}
+  .field label{font-size:11px!important;margin-bottom:3px!important}
+  .searchbox input{height:48px!important;min-height:48px!important;border-radius:12px!important;font-size:16px!important}
+  .swap{width:42px!important;height:34px!important;justify-self:center!important;transform:rotate(90deg)!important;border-radius:10px!important}
+  .primary{width:100%!important;height:49px!important;min-height:49px!important;border-radius:12px!important;font-size:15px!important}
+  .quick-title{font-size:10.5px!important;margin:8px 0 5px!important}
+  .quick{flex-wrap:nowrap!important;overflow-x:auto!important;scrollbar-width:none!important}
+  .quick::-webkit-scrollbar{display:none}
+  .quick button{flex:0 0 auto!important;min-height:34px!important;padding:7px 10px!important;font-size:10px!important}
+  .cards{grid-template-columns:1fr!important}
+  .pharmacy-links{grid-template-columns:1fr 1fr!important}
+  .pharmacy-link{min-height:43px!important;padding:7px 5px!important;font-size:9.5px!important}
+  .doctor-cta{
+    padding:12px!important;gap:9px!important;border-radius:14px!important;
+    flex-direction:column!important;align-items:stretch!important;
+  }
+  .doctor-copy strong{font-size:13px!important}
+  .doctor-copy small{font-size:10px!important}
+  .doctor-button{width:100%!important;min-height:46px!important;font-size:13px!important}
+  .result-main{padding:14px!important}
+  .result-main h3{font-size:18px!important}
+}
+
+@media(max-width:390px){
+  .wrap{width:calc(100% - 16px)!important}
+  .hero-simple h1{font-size:25px!important}
+  .hero-simple p{font-size:11px!important}
+  .checker{padding:10px!important}
+  .searchbox input{height:46px!important;min-height:46px!important}
+  .primary{height:47px!important;min-height:47px!important}
+  .pharmacy-links{grid-template-columns:1fr!important}
+}
+
