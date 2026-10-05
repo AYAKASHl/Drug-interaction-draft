@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3157f6">
+<title>Проверка совместимости лекарственных препаратов</title>
+<meta name="description" content="Сервис проверки совместимости лекарственных препаратов">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+</div>
+
+<div class="wrap">
+
+<div id="searchLoader" aria-live="polite" aria-label="Проверяем совместимость">
+  <div class="pour-wrap">
+    <div class="pour-scene" aria-hidden="true">
+      <div class="pour-bottle bottle-a">
+        <span class="bottle-cap"></span><span class="bottle-body"></span>
+      </div>
+      <div class="pour-bottle bottle-b">
+        <span class="bottle-cap"></span><span class="bottle-body"></span>
+      </div>
+
+      <span class="fall-med capsule c1"></span>
+      <span class="fall-med tablet-round c2"></span>
+      <span class="fall-med tablet-oblong c3"></span>
+      <span class="fall-med capsule c4"></span>
+      <span class="fall-med tablet-round c5"></span>
+
+      <span class="fall-med capsule c6 second"></span>
+      <span class="fall-med tablet-oblong c7 second"></span>
+      <span class="fall-med tablet-round c8 second"></span>
+      <span class="fall-med capsule c9 second"></span>
+      <span class="fall-med tablet-oblong c10 second"></span>
+    </div>
+    <div class="search-caption">Проверяем совместимость<small id="searchLoaderText">Сопоставляем препараты...</small></div>
+  </div>
+</div>
+<header class="simple-header">
+ <div class="brand functional-brand">
+   <div class="logo" aria-hidden="true"></div>
+   <div>Совместимость лекарств</div>
+ </div>
+ <div class="header-actions">
+   <button class="icon-btn" id="theme" title="Сменить тему" aria-label="Сменить тему">◐</button>
+ </div>
+</header>
+
+<section class="hero hero-simple">
+ <div>
+   <div class="kicker">Проверка лекарственных взаимодействий</div>
+   <h1>Проверка совместимости <span class="grad">лекарственных препаратов</span></h1>
+   <p>Введите два препарата. Сервис сопоставит действующие вещества, покажет известное взаимодействие, рекомендуемый интервал, режим отпуска и особенности приема разных лекарственных форм.</p>
+ </div>
+</section>
+
+<div class="notice compact-notice"><div>i</div><div><strong>Справочная информация.</strong> Не изменяйте назначенную терапию самостоятельно. Для неизвестной пары выводится "Недостаточно данных", а не предположение о совместимости.</div></div>
+<nav class="tabs">
+ <button class="tab active" data-tab="checkPanel">Проверка</button>
+ <button class="tab" data-tab="dbPanel">База препаратов</button>
+ <button class="tab" data-tab="historyPanel">История</button>
+ 
+</nav>
+
+<section class="panel active" id="checkPanel">
+ <div class="checker">
+   <div class="checker-head"><div><h2>Проверить совместимость</h2><p>Введите название первого и второго препарата.</p></div></div>
+   <div class="search-grid">
+     <div class="field"><label>Первый препарат</label><div class="searchbox"><input id="a" list="drugList" placeholder="Например, Эутирокс" autocomplete="off" enterkeyhint="next" aria-label="Первый препарат"><span class="searchico">⌕</span></div></div>
+     <button class="swap" id="swap" title="Поменять местами">⇄</button>
+     <div class="field"><label>Второй препарат</label><div class="searchbox"><input id="b" list="drugList" placeholder="Например, кальция карбонат" autocomplete="off" enterkeyhint="done" aria-label="Второй препарат"><span class="searchico">⌕</span></div></div>
+     <button class="primary" id="checkBtn">Проверить</button>
+   </div>
+   <datalist id="drugList"></datalist>
+   <div class="quick-title">Самые популярные запросы</div>
+   <div class="quick">
+     <button data-a="Эутирокс" data-b="Кальция карбонат">Эутирокс + кальций</button>
+     <button data-a="Ципрофлоксацин" data-b="Кальция карбонат">Ципрофлоксацин + кальций</button>
+     <button data-a="Виагра" data-b="Нитроглицерин">Виагра + нитроглицерин</button>
+     <button data-a="Плавикс" data-b="Омепразол">Плавикс + омепразол</button>
+     <button data-a="Симвастатин" data-b="Кларитромицин">Симвастатин + кларитромицин</button>
+     <button data-a="Эликвис" data-b="Кетоконазол">Эликвис + кетоконазол</button>
+     <button data-a="Амлодипин" data-b="Симвастатин">Амлодипин + симвастатин</button>
+     <button data-a="Золофт" data-b="Ибупрофен">Золофт + ибупрофен</button>
+     <button data-a="Флуконазол" data-b="Варфарин">Флуконазол + варфарин</button>
+     <button data-a="Парацетамол" data-b="Ибупрофен">Парацетамол + ибупрофен</button>
+     <button data-a="Ибупрофен" data-b="Аспирин">Ибупрофен + аспирин</button>
+     <button data-a="Лозартан" data-b="Ибупрофен">Лозартан + ибупрофен</button>
+     <button data-a="Метформин" data-b="Дапаглифлозин">Метформин + дапаглифлозин</button>
+     <button data-a="Парацетамол" data-b="Левотироксин">Парацетамол + левотироксин</button>
+     <button data-a="Амлодипин" data-b="Бисопролол">Амлодипин + бисопролол</button>
+     <button data-a="Амиодарон" data-b="Кларитромицин">Амиодарон + кларитромицин</button>
+     <button data-a="Ксарелто" data-b="Ибупрофен">Ксарелто + ибупрофен</button>
+     <button data-a="Валсартан" data-b="Амлодипин">Валсартан + амлодипин</button>
+     <button data-a="Эмпаглифлозин" data-b="Метформин">Эмпаглифлозин + метформин</button>
+     <button data-a="Ксанакс" data-b="Кетоконазол">Ксанакс + кетоконазол</button>
+     <button data-a="Тадалафил" data-b="Нитроглицерин">Тадалафил + нитроглицерин</button>
+   </div>
+ </div>
+
+ <div id="result">
+  <div class="sec-title"><h3>Результат</h3><span id="pairLabel"></span></div>
+  <div class="result-card" id="resultCard">
+   <div class="result-main">
+    <div class="statusicon" id="statusIcon">!</div>
+    <div><div class="badge" id="badge"></div><h3 id="title"></h3><p id="summary"></p></div>
+   </div>
+   <div class="result-cols">
+    <div class="rcol"><h4>Прием препаратов и интервал</h4><div class="interval" id="interval"></div></div>
+    <div class="sources" id="sources"></div></div>
+   </div>
+  </div>
+
+  <div class="sec-title mnn-page-title"><h3>Препараты с этим МНН</h3></div>
+  <div class="cards" id="cards"></div>
+
+  <div class="doctor-cta">
+    <div class="doctor-copy">
+      <span class="doctor-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 3v4a5 5 0 0010 0V3"/><path d="M5 3h4"/><path d="M15 3h4"/>
+          <path d="M12 12v2a6 6 0 006 6"/><circle cx="19" cy="19" r="2"/>
+        </svg>
+      </span>
+      <div><strong>Нужна консультация специалиста?</strong><small>Запись через Госуслуги</small></div>
+    </div>
+    <button type="button" class="doctor-button" onclick="openEmias()">Записаться ко врачу</button>
+  </div>
+
+ </div>
+ <div class="empty" id="empty"><strong>Препарат не найден в локальном справочнике</strong>Попробуйте МНН или торговое название из вкладки "База препаратов".</div>
+</section>
+
+<section class="panel" id="dbPanel">
+ <div class="sec-title"><h3>Локальный справочник</h3><span>Расширенный справочник часто используемых препаратов</span></div>
+ <div class="dbtools"><input id="dbSearch" placeholder="Фильтр по МНН или бренду"></div>
+ <div class="tablewrap"><table><thead><tr><th>МНН</th><th>Торговые названия из ГРЛС</th><th>Регистрация</th><th>Отпуск</th></tr></thead><tbody id="dbBody"></tbody></table></div>
+</section>
+
+<section class="panel" id="historyPanel">
+ <div class="sec-title"><h3>Последние проверки</h3><span>Хранятся только в этом браузере</span></div>
+ <div class="history" id="history"></div>
+</section>
+
+<footer>Справочная информация о лекарственных взаимодействиях. Режим отпуска и рекомендации зависят от конкретного препарата, дозировки и лекарственной формы. Перед применением необходима консультация специалиста.</footer>
+</div>
+<script src="data/drugs-ru.js"></script>
+<script src="data/drugs-base.js"></script>
+<script src="data/clinical-meta.js"></script>
+<script src="data/interactions.js"></script>
+<script src="data/expanded-catalog.js"></script>
+<script src="data/expanded-forms.js"></script>
+<script src="data/expanded-interactions.js"></script>
+<script src="app.js"></script>
+</body></html>
